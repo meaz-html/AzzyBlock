@@ -1,0 +1,24 @@
+@import url(https://fonts.bunny.net/css?family=caveat:700);
+
+div {
+    background-color: #000000;
+}
+
+/* Page background and text color */
+html, body {
+    background-color: #000000;
+    color: #ffffff;
+    /* use the imported Caveat font for the whole page */
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    /* slightly larger, but not too large */
+    font-size: 18px;
+    /* center all page content both horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
